@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+NAME:築間幸福鍋物 台北忠孝二店訂位 - 2位
+X-WR-CALNAME:築間幸福鍋物 台北忠孝二店訂位 - 2位
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+BEGIN:STANDARD
+DTSTART:20240311T153000
+DTEND:20240311T171000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20240311T153000
+DTEND:20240311T171000
+DTSTAMP:20240307T133517
+STATUS:CONFIRMED
+SUMMARY:築間幸福鍋物 台北忠孝二店訂位 - 2位
+LOCATION:台北市大安區忠孝東路四段120號
+DESCRIPTION:築間幸福鍋物 台北忠孝二店\n餐廳電話：02-2773-2727\n餐廳地址：台北市大安區忠孝東路四段120號\n\n更詳細的
+ 訂位資訊請點選以下連結\nhttps://inline.app/reservations/-NsMP-Iw8gFs_M4lzaXl/success\n
+ 貼心提醒：您的座位將保留分鐘，請記得提早出發。\n用餐時間限制請以餐廳實際公告為準。
+END:VEVENT
+END:VCALENDAR

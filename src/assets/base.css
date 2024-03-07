@@ -1,0 +1,26 @@
+:root {
+  --primary: #845EC2;
+  --secondary: #845EC2;
+  --palette: #FBEAFF;
+  --accent: #00C9A7;
+  --background: #FEF7FF;
+  --text: #212121;
+  --font-family: 'Merriweather','Noto Sans TC', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #212121;
+    --text: #fdfdfd;
+  }
+}
+
+html {
+  color-scheme: dark light;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-family);
+}

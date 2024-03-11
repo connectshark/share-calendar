@@ -1,2 +1,30 @@
 @import './reset.css';
 @import './base.css';
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1080px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: .3rem;
+  border-radius: .5rem;
+  i {
+    vertical-align: middle;
+  }
+}
+
+.ssr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

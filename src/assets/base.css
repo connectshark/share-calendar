@@ -1,9 +1,9 @@
 :root {
   --primary: #845EC2;
-  --secondary: #845EC2;
+  --secondary: #B39CD0;
   --palette: #FBEAFF;
   --accent: #00C9A7;
-  --background: #FEF7FF;
+  --background: #fef9ff;
   --text: #212121;
   --font-family: 'Merriweather','Noto Sans TC', system-ui, -apple-system, sans-serif;
 }
@@ -18,6 +18,22 @@
 html {
   color-scheme: dark light;
   scroll-behavior: smooth;
+}
+
+:root:has(#dark:checked) {
+  color-scheme: dark;
+  --background: #212121;
+  --text: #fdfdfd;
+}
+
+:root:has(#light:checked) {
+  color-scheme: light;
+  --background: #FEF7FF;
+  --text: #212121;
+}
+
+body, input, textarea, button, select {
+  font-family: var(--font-family);
 }
 body {
   background-color: var(--background);
